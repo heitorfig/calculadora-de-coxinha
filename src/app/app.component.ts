@@ -27,9 +27,9 @@ export class AppComponent {
   public types: Type[] = [];
   public itemsToBuy: ItemToBuy[] = [];
   public itemsAvailable: Item[] = [];
-  private quantityPerCapita: number = 7;
-  private thighSize: number = 1;
-  private sodaPerCapita = 1/6;
+  public quantityPerCapita: number = 7;
+  public thighSize: number = 1;
+  public sodaPerCapita = 1/6;
 
   constructor() {
     this.types.push({
