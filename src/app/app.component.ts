@@ -34,15 +34,15 @@ export class AppComponent {
   constructor() {
     this.types.push({
       name: 'Pra galera comer',
-      quantityPerCapita: 7
+      quantityPerCapita: 10
     });
     this.types.push({
       name: 'Pra comer e sobrar',
-      quantityPerCapita: 9
+      quantityPerCapita: 15
     });
     this.types.push({
       name: 'Pra comer e sobrar para o outro dia',
-      quantityPerCapita: 12
+      quantityPerCapita: 20
     });
 
     this.itemsAvailable.push({
